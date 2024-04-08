@@ -14,24 +14,26 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .container {
-  max-width: 100%;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: ;
-  margin-right: ;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
+
 a {
   text-decoration: none;
 }
 
 .logo {
+  padding-top: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -39,6 +41,10 @@ a {
   text-transform: uppercase;
   color: #4D5AE5;
   letter-spacing: 0.03em;
+}
+header .container,
+nav, header ul {
+  display: flex;
 }
 
 .accent {
