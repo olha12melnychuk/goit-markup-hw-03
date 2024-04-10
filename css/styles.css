@@ -33,7 +33,6 @@ a {
 }
 
 .logo {
-  padding-top: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -46,7 +45,31 @@ header .container,
 nav, header ul {
   display: flex;
 }
+header .container {
+  border-bottom: 1px;
+  border-color: #E7E9FC;
+  padding: 24px 0 24px 0;
 
+}
+.logo {
+  padding-top: 24px;
+  padding-left: 70px;
+  width: 115px;
+  height: 24px;
+  margin-right: 120px;
+}
+nav ul {
+  gap: 40px;
+  padding-top: 24px;
+  width: 261px;
+  height: 24px;
+  margin-right: 180px;
+}
+
+.contacts .address-list {
+  padding-top: 24px;
+  gap: 40px;
+}
 .accent {
   color: #2e2f42;
 }
@@ -69,7 +92,37 @@ nav, header ul {
 .page-link:active {
 text-decoration: underline;
 }
-
+.section-one .container {
+  display: block;
+  width: 1440px;
+  height: 600px;
+}
+h1 {
+  margin: 0 auto;
+  width: 496px;
+  height: 120px;
+  padding-top: 180px;
+  margin-bottom: 180px;
+}
+.section-one .container .btn {
+  display: block;
+  margin: 0 auto;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+}
+.our-advantages ul {
+  display: flex;
+  gap: 8px;
+  padding-left: 70px;
+}
+.our-advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.our-advantages h2 {
+  display: none;
+}
 .contacts {
   font-style: normal;
 }
@@ -142,6 +195,24 @@ color: #434455;
   background-color: #F4F4FD;
 }
 
+.our-team {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.our-team ul {
+  display: flex;
+  gap: 32px;
+}
+
+.card-content img {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.our-team .section-header {
+  margin: 70px;
+}
 .card-content {
  background-color: #FFFFFF;
 }
