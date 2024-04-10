@@ -195,6 +195,12 @@ color: #434455;
   background-color: #F4F4FD;
 }
 
+.our-team .container {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 732px;
+}
+
 .card-container {
   display: flex;
   margin-top: 120px;
@@ -225,9 +231,34 @@ margin-bottom: 20px;
 .card-content {
  background-color: #FFFFFF;
 }
+  
+.our-portfolio {
+  display: flex;
+  margin-bottom: 100px;
+  padding-top: 90px;
+}
+
+.first-row-container {
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid #E7E9FC;
+  gap: 20px;
+}
+
+.second-row-container {
+  display: flex;
+  box-sizing: border-box;
+  gap: 20px;
+}
 
 .page-end {
   background-color: #2E2F42;
+}
+
+.page-end .container {
+  display: block;
+  width: 1440px;
+  height: 312px;
 }
 
 .logo-footer {
@@ -253,4 +284,6 @@ margin-bottom: 20px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  height: 32px;
 }
