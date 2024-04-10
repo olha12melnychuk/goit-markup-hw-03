@@ -195,24 +195,33 @@ color: #434455;
   background-color: #F4F4FD;
 }
 
-.our-team {
+.card-container {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.our-team ul {
-  display: flex;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  width: 264px ;
+  height: 380px;
   gap: 32px;
+  padding-bottom: 80px;
 }
 
-.card-content img {
-  display: flex;
-  margin-bottom: 20px;
+.thumb {
+width: 264px;
+height: 260px;
+margin-bottom: 20px;
+}
+
+.thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .our-team .section-header {
-  margin: 70px;
+  margin-bottom: 60px;
+  padding-top: 90px;
 }
+
 .card-content {
  background-color: #FFFFFF;
 }
