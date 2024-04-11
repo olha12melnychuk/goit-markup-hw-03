@@ -45,31 +45,31 @@ header .container,
 nav, header ul {
   display: flex;
 }
+
 header .container {
   border-bottom: 1px;
   border-color: #E7E9FC;
-  padding: 24px 0 24px 0;
-
 }
+
 .logo {
   padding-top: 24px;
-  padding-left: 70px;
-  width: 115px;
-  height: 24px;
-  margin-right: 120px;
+  padding-bottom: 24px;
+  margin-right: 76px;
 }
+
 nav ul {
   gap: 40px;
   padding-top: 24px;
-  width: 261px;
-  height: 24px;
-  margin-right: 180px;
+  padding-bottom: 24px;
+  margin-right: 332px;  
 }
 
 .contacts .address-list {
   padding-top: 24px;
+  padding-bottom: 24px;
   gap: 40px;
 }
+
 .accent {
   color: #2e2f42;
 }
@@ -92,37 +92,50 @@ nav ul {
 .page-link:active {
 text-decoration: underline;
 }
-.section-one .container {
+
+.section-hero .container {
   display: block;
   width: 1440px;
   height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
+
 h1 {
+  display: block;
   margin: 0 auto;
   width: 496px;
-  height: 120px;
-  padding-top: 180px;
-  margin-bottom: 180px;
+  margin-bottom: 48px;
 }
-.section-one .container .btn {
+
+.container .btn {
   display: block;
   margin: 0 auto;
   width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
 }
+
 .our-advantages ul {
   display: flex;
   gap: 8px;
-  padding-left: 70px;
 }
-.our-advantages {
+
+.our-advantages .container {
+  display: flex;
+}
+
+.our-advantages ul {
   padding-top: 120px;
   padding-bottom: 120px;
+  gap: 24px;
 }
+
 .our-advantages h2 {
   display: none;
 }
+
 .contacts {
   font-style: normal;
 }
@@ -149,6 +162,7 @@ color: #434455;
 }
 
 .underheader {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -162,11 +176,11 @@ color: #434455;
   letter-spacing: 0.02em;
 }
 
-.section-one {
+.section-hero {
   background-color: #2E2F42;
 }
 
-.section-one .header {
+.section-hero .header {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 56px;
@@ -175,7 +189,7 @@ color: #434455;
   text-align: center;
 }
 
-.section-one .btn {
+.section-hero .btn {
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
   color: #FFFFFF;
@@ -186,8 +200,8 @@ color: #434455;
   cursor: pointer;
 }
 
-.section-one .btn:hover,
-.section-one .btn:focus {
+.section-hero .btn:hover,
+.section-hero .btn:focus {
   background-color: #404BBF;
 }
 
@@ -196,25 +210,19 @@ color: #434455;
 }
 
 .our-team .container {
-  box-sizing: border-box;
-  width: 1440px;
-  height: 732px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .card-container {
   display: flex;
-  margin-top: 120px;
-  margin-bottom: 120px;
-  width: 264px ;
-  height: 380px;
-  gap: 32px;
-  padding-bottom: 80px;
+  gap: 24px;
 }
 
 .thumb {
 width: 264px;
 height: 260px;
-margin-bottom: 20px;
+margin-bottom: 32px;
 }
 
 .thumb img {
@@ -224,12 +232,13 @@ margin-bottom: 20px;
 }
 
 .our-team .section-header {
-  margin-bottom: 60px;
-  padding-top: 90px;
+  margin-bottom: 72px;
 }
 
 .card-content {
+  padding-bottom: 32px;
  background-color: #FFFFFF;
+ text-align: center;
 }
   
 .our-portfolio {
